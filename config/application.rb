@@ -37,6 +37,10 @@ module SampleApp
     config.encoding = "utf-8"
 
     # Configure sensitive parameters which will be filtered from the log file.
+<<<<<<< HEAD
     config.filter_parameters += [:password]
+=======
+    config.filter_parameters += [:password, :password_confirmation]
+>>>>>>> sign-in-out
   end
 end
